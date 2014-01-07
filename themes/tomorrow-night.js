@@ -91,60 +91,60 @@ module.exports = {
     , _default      :  colors.white
   }
   , 'Punctuator': {
-      ';': undefined
-    , '.': undefined
-    , ',': undefined
+      ';': colors.white
+    , '.': colors.white
+    , ',': colors.white
 
-    , '{': undefined
-    , '}': undefined
-    , '(': undefined
-    , ')': undefined
-    , '[': undefined
-    , ']': undefined
+    , '{': colors.white
+    , '}': colors.white
+    , '(': colors.white
+    , ')': colors.white
+    , '[': colors.white
+    , ']': colors.white
 
-    , '<': colors.brightCyan
-    , '>': colors.brightCyan
-    , '+': colors.brightCyan
-    , '-': colors.brightCyan
-    , '*': colors.brightCyan
-    , '%': colors.brightCyan
+    , '<': undefined
+    , '>': undefined
+    , '+': undefined
+    , '-': undefined
+    , '*': undefined
+    , '%': undefined
     , '&': undefined
-    , '|': undefined
+    , '|': colors.white
     , '^': undefined
     , '!': undefined
     , '~': undefined
-    , '?': undefined
-    , ':': undefined
-    , '=': colors.brightCyan
+    , '?': colors.white
+    , ':': colors.white
+    , '=': undefined
 
-    , '<=': colors.brightCyan
-    , '>=': colors.brightCyan
-    , '==': colors.brightCyan
-    , '!=': colors.brightCyan
-    , '++': colors.brightCyan
-    , '--': colors.brightCyan
+    , '<=': undefined
+    , '>=': undefined
+    , '==': undefined
+    , '!=': undefined
+    , '++': undefined
+    , '--': undefined
     , '<<': undefined
     , '>>': undefined
-    , '&&': colors.brightCyan
-    , '||': colors.brightCyan
-    , '+=': colors.brightCyan
-    , '-=': colors.brightCyan
-    , '*=': colors.brightCyan
-    , '%=': colors.brightCyan
+    , '&&': undefined
+    , '||': undefined
+    , '+=': undefined
+    , '-=': undefined
+    , '*=': undefined
+    , '%=': undefined
     , '&=': undefined
     , '|=': undefined
     , '^=': undefined
     , '/=': undefined
 
-    , '===': colors.brightCyan
-    , '!==': colors.brightCyan
+    , '===': undefined
+    , '!==': undefined
     , '>>>': undefined
     , '<<=': undefined
     , '>>=': undefined
     
     , '>>>=': undefined
 
-    , _default: colors.white
+    , _default: colors.cyan
   }
 
     // line comment
